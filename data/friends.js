@@ -1,0 +1,171 @@
+// ===============================================================================
+// DATA
+// Below data will hold all of the reserved tables.
+// Initially we just set it equal to a "dummy" customer.
+// But you could have it be an empty array as well.
+// ===============================================================================
+var friends = [
+  {
+      "name":"Eric",
+      "photo":"http://www.mens-hairstyle.com/wp-content/uploads/2016/09/Hairstyles-for-Guys-with-Round-Faces.jpg",
+      "scores":[
+         2,
+         1,
+         3,
+         3,
+         2,
+         1,
+         2,
+         5,
+         4,
+         1
+          ]
+      },
+  {
+  "name":"Jay",
+  "photo":"https://i.pinimg.com/736x/12/fe/e1/12fee1e287f7f02991570a57cd248924--handsome-faces-handsome-guys.jpg",
+  "scores":[
+     1,
+     1,
+     4,
+     4,
+     5,
+     1,
+     2,
+     5,
+     4,
+     1
+      ]
+},
+{
+  "name":"Corinne",
+  "photo":"https://i.ytimg.com/vi/W6ZDeYB6XA0/maxresdefault.jpg",
+  "scores":[
+     2,
+     1,
+     4,
+     4,
+     5,
+     1,
+     2,
+     5,
+     4,
+     1
+      ]
+},
+{
+  "name":"Mvishwanath",
+  "photo":"https://i.pinimg.com/originals/23/44/f6/2344f67ddd31c4f13baf9ff33e1e40f6.jpg",
+  "scores":[
+     4,
+     1,
+     5,
+     5,
+     5,
+     4,
+     2,
+     3,
+     1,
+     5
+      ]
+},
+{
+  "name":"Ann",
+  "photo":"https://drawinglics.com/view/85722/top-25-best-girl-face-drawing-ideas-on-pinterest-drawing-faces-girl-without-a-pearl-earring-kei-meguro-tokyo-born-artist-realistic-face-drawingfemale.jpg",
+  "scores":[
+     4,
+     4,
+     4,
+     1,
+     2,
+     5,
+     3,
+     3,
+     2,
+     1
+      ]
+},
+{
+  "name":"Heather",
+  "photo":"http://icongal.com/gallery/image/451504/browser_girl_woman_female_person_chrome_customer_user_google_face.png",
+  "scores":[
+     1,
+     1,
+     2,
+     3,
+     2,
+     4,
+     2,
+     1,
+     1,
+     5
+      ]
+},
+{
+  "name":"Gena",
+  "photo":"https://www.askideas.com/media/14/Angry-Face-Funny-Woman-Image.jpg",
+  "scores":[
+     2,
+     3,
+     3,
+     3,
+     2,
+     1,
+     5,
+     5,
+     2,
+     1
+      ]
+},
+{
+  "name":"Andrew",
+  "photo":"https://i.pinimg.com/originals/fb/d1/29/fbd1299b1b50d714bc23e87911f8798f.jpg",
+  "scores":[
+     3,
+     1,
+     1,
+     5,
+     2,
+     1,
+     2,
+     4,
+     1,
+     5
+      ]
+},
+{
+  "name":"John",
+  "photo":"https://www.askideas.com/media/36/Funny-Weird-Face-Old-Man-Laughing-Image-For-Facebook.jpg",
+  "scores":[
+     3,
+     3,
+     1,
+     2,
+     2,
+     5,
+     2,
+     3,
+     2,
+     1
+      ]
+},
+{
+  "name":"Brandon",
+  "photo":"https://images.baklol.com/13_jpege610372d4a5b42d3a0f47d3fea48a052.jpeg",
+  "scores":[
+     4,
+     1,
+     2,
+     2,
+     2,
+     2,
+     5,
+     5,
+     5,
+     3
+      ]
+}
+]
+
+// Note how we export the array. This makes it accessible to other files using require.
+module.exports = friends;
